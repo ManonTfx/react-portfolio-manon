@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/Times-Bold.ttf);
+}
+@font-face {
+    font-family: "font-2";
+    src: url(../assets/fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "font-3";
+    src: url(../assets/fonts/Helvetica.ttf);
+}
+
+$font-1: "font-1";
+$font-2: "font-2", sans-serif;
+$font-3: "font-3", sans-serif;
+
+$color-1: #BF2089;
+$color-2: #086E94;
+$color-3: #564848;
+$color-4: #706B6B;
+$title : #413B3B;
+$white: #FFF;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: $font-2;
+}
