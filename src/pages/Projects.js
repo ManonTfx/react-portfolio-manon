@@ -1,8 +1,10 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 export const Project1 = () => {
     return (
         <main>
+            <Navigation />
             <div className="project">
               Projet 1
             </div>
@@ -13,6 +15,7 @@ export const Project1 = () => {
 export const Project2 = () => {
     return (
         <main>
+            <Navigation />
             <div className="project">
               Projet 2
             </div>
@@ -23,6 +26,7 @@ export const Project2 = () => {
 export const Project3 = () => {
     return (
         <main>
+            <Navigation />
             <div className="project">
               Projet 3
             </div>
@@ -33,6 +37,7 @@ export const Project3 = () => {
 export const Project4 = () => {
     return (
         <main>
+            <Navigation />
             <div className="project">
               Projet 4
             </div>

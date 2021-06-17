@@ -1,9 +1,11 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Work = () => {
     return (
         <div>
-            Work Home
+           <Navigation />
+           work
         </div>
     );
 };
