@@ -1,0 +1,60 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 15%;
+    color: $color-3;
+
+    .nav-active {
+        &::after {
+            content: '';
+            position: absolute;
+            height: 4px;
+            background-color: $color-1;
+        }
+    }
+
+    .nav-active-a-propos{
+        &::after {
+            width: 65px;
+        }
+    }
+    .nav-active-projets{
+        &::after {
+            width: 50px;
+        }
+    }
+
+    .hover{
+        &:hover{
+            opacity: 0.8;
+        }
+        transition: 1s;
+    }
+
+    h1{
+        font-weight: bold;
+    }
+
+    span {
+        color: $color-1;
+    }
+
+    ul{
+        display: flex;
+
+        li{
+            margin-right: 20px;
+            color: $color-3;
+            margin-bottom: 2px;
+        }
+    }
+
+    button{
+        background-color: $color-1;
+        color: $white;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
