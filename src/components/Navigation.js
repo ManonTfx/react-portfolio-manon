@@ -1,21 +1,21 @@
 import React from 'react';
-import { Navlink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
         <div className="navigation">
             <ul>
-                <Navlink to="/">
+                <NavLink to="/" exact className="hover" activeClassName="nav-active-projets nav-active">
                     <li>Projets</li>
-                </Navlink>
-                <Navlink to="/a-propos">
+                </NavLink>
+                <NavLink to="/a-propos" className="hover" activeClassName="nav-active-a-propos nav-active">
                     <li>A propos</li>
-                </Navlink>
+                </NavLink>
             </ul>
             <h1>manon <span>trefoux</span></h1>
-            <Navlink to="/contact">
-                <button>Me contacter</button>
-            </Navlink>
+            <NavLink className="hover" to="/contact">
+                <button >Me contacter</button>
+            </NavLink>
         </div>
     );
 };
