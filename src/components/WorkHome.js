@@ -8,6 +8,7 @@ const WorkHome = (props) => {
     return (
         <div className="projects-home">
                 <h3>{project.techno} <span>{project.title}</span></h3>
+                <p>{project.alert}</p>
                 <button><a  target="_blank" className="hover" href={project.url}>voir le site</a></button>
                 <div className="img-container">
                     <span>{project.infos}</span> 
