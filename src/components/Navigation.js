@@ -12,7 +12,11 @@ const Navigation = () => {
                     <li>A propos</li>
                 </NavLink>
             </ul>
-            <h1>manon <span>trefoux</span></h1>
+            <div className="manon-trefoux-nav">
+                <h1>manon <span>trefoux</span></h1>
+                <div className="round"></div>
+            </div>
+
             <NavLink className="hover" to="/contact">
                 <button >Me contacter</button>
             </NavLink>
