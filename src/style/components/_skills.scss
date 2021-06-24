@@ -1,0 +1,40 @@
+.skills{
+    border-top: solid 1px black;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+    h2{
+        margin-top: 20px;
+        color: $color-4;
+    }
+    .skills-list{
+        margin: auto;
+        column-count: 4;
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        margin-top: 30px;
+
+        h3{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: $title;
+        }
+    }
+    .title-skills{
+        display: flex;
+    }
+
+    ul{
+        height: 250px;
+    }
+    .round{
+        height: 7px;
+        width: 7px;
+        border-radius: 7px;
+        background-color: $color-1;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
