@@ -5,6 +5,17 @@
     margin: 50px 15%;
     color: $color-3;
 
+    .manon-trefoux-nav{
+        display: flex;
+        .round{
+            height: 7px;
+            width: 7px;
+            border-radius: 7px;
+            background-color: $color-1;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+    }
     .nav-active {
         &::after {
             content: '';
